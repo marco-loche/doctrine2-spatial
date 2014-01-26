@@ -3,6 +3,10 @@
 [![Latest Stable Version](https://poser.pugx.org/creof/doctrine2-spatial/v/stable.png)](https://packagist.org/packages/creof/doctrine2-spatial)
 [![Total Downloads](https://poser.pugx.org/creof/doctrine2-spatial/downloads.png)](https://packagist.org/packages/creof/doctrine2-spatial)
 [![Latest Unstable Version](https://poser.pugx.org/creof/doctrine2-spatial/v/unstable.png)](https://packagist.org/packages/creof/doctrine2-spatial) [![License](https://poser.pugx.org/creof/doctrine2-spatial/license.png)](https://packagist.org/packages/creof/doctrine2-spatial)
+
+
+https://github.com/symfony/symfony-docs/issues/671
+
 Doctrine2 multi-platform support for spatial types and functions. Currently MySQL and PostgreSQL with PostGIS are supported. Could potentially add support for other platforms if an interest is expressed.
 
 This package is a refactor/continuation of my [doctrine2-mysql-spatial](https://github.com/djlambert/doctrine2-mysql-spatial) package.
