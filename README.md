@@ -96,3 +96,20 @@ EWKT/EWKB function support planned.
 
 ```$result[n][1]``` will now be of type ```Point``` instead of the string ```'POINT(X Y)'```
 
+## Testing
+
+
+Setup the test suite using [Composer](http://getcomposer.org/):
+```
+    $ composer install --dev --prefer-source
+```
+`--prefer-source` is required otherwise the `Doctrine\Tests\OrmTestCase` class won't be found.
+
+Setup a MySql and a Postgres databases to be used in integration tests.
+Configure consequently the phpunit.xml
+
+Run tests using PHPUnit:
+
+```
+    $ phpunit -c phpunit.xml
+```
