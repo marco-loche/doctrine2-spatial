@@ -256,6 +256,8 @@ abstract class OrmTest extends \Doctrine\Tests\OrmFunctionalTestCase
             $this->_em->getConfiguration()->addCustomNumericFunction('st_linecrossingdirection', 'CrEOF\Spatial\ORM\Query\AST\Functions\PostgreSql\STLineCrossingDirection');
             $this->_em->getConfiguration()->addCustomStringFunction('st_startpoint', 'CrEOF\Spatial\ORM\Query\AST\Functions\PostgreSql\STStartPoint');
             $this->_em->getConfiguration()->addCustomStringFunction('st_summary', 'CrEOF\Spatial\ORM\Query\AST\Functions\PostgreSql\STSummary');
+            $this->_em->getConfiguration()->addCustomStringFunction('st_x', 'CrEOF\Spatial\ORM\Query\AST\Functions\PostgreSql\STX');
+            $this->_em->getConfiguration()->addCustomStringFunction('st_y', 'CrEOF\Spatial\ORM\Query\AST\Functions\PostgreSql\STY');
         }
 
         if ($this->getPlatform()->getName() == 'mysql') {
